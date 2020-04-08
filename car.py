@@ -27,9 +27,9 @@ pygame.display.set_caption("Car Race")
 clock = pygame.time.Clock()
 
 #load  car image
-carImg=pygame.image.load(r'C:\Users\Abhinav Jain\Pictures\car.png')
-enmcar=pygame.image.load(r'C:\Users\Abhinav Jain\Pictures\ene.png')
-carI=pygame.image.load(r'C:\Users\Abhinav Jain\Pictures\g.png')
+carImg=pygame.image.load(r'Pictures\car.png')
+enmcar=pygame.image.load(r'Pictures\ene.png')
+carI=pygame.image.load(r'Pictures\g.png')
 pygame.display.set_icon(carI)
 def score(count):
     font=pygame.font.SysFont(None,25)
